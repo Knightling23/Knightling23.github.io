@@ -43,7 +43,7 @@ body {
 
 .navbar-brand {
   padding-top: 25px;
-  position: relative;
+ 
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
@@ -55,12 +55,12 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
-  position: relative;
+ 
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
   
-  position: relative;
+ 
 }
 .navbar-brand p { /* Kosher cert */
   color: #000;
