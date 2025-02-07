@@ -38,10 +38,12 @@ body {
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
+  text-align: left;
 }
 
 .navbar-brand {
   padding-top: 25px;
+  position: relative;
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
@@ -53,9 +55,12 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+  position: relative;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+  
+  position: relative;
 }
 .navbar-brand p { /* Kosher cert */
   color: #000;
@@ -154,7 +159,7 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-  background: url('../images/menu.png') no-repeat;
+  background: url('../images/menubig.png') no-repeat;
   background-position: center;
 }
 #specials-tile {
